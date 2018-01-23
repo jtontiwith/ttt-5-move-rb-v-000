@@ -15,11 +15,12 @@ input = gets.strip
 index = input_to_index(input)
 
 puts index
-puts board
 
 updated_board = move(board, index)
 
-display_board(updated_board)
+
+
+#display_board(updated_board)
 
 
 
