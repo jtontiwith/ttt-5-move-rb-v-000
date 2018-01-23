@@ -19,7 +19,6 @@ def input_to_index(p_input)
   index = p_input.to_i - 1
 end
 
-move(board, index)
 
 def move(b_array, pmove, p_char = "X")
   display_board(b_array[pmove] = p_char) 
