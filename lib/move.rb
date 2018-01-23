@@ -16,8 +16,7 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(p_input)
-  index_bp = p_input.to_i
-  index = index_bp - 1 
+  index = p_input.to_i
   board = [" "," "," "," "," "," "," "," "," "]
   move(board, index)
 end
