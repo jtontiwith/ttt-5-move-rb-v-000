@@ -18,7 +18,8 @@ end
 def input_to_index(p_input)
   index = p_input.to_i
   board = [" "," "," "," "," "," "," "," "," "]
-  move(board, index, O)
+  blah = "O"
+  move(board, index, blah)
 end
 
 def move(b_array, pmove, p_char = "X")
