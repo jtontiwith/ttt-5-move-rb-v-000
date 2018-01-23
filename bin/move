@@ -16,9 +16,9 @@ index = input_to_index(input)
 
 puts index
 
-move(board, index)
+updated_array = move(board, index)
 
-display_board(move(board, index))
+display_board(updated_array)
 
 
 
