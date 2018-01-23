@@ -18,7 +18,7 @@ puts index
 
 updated_board = move(board, index)
 
-puts updated_board
+puts updated_board.index
 
 #display_board(updated_board)
 
